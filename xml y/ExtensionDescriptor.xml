@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Root usage="ExtensionDescriptor" chip="OZ3710" chiptype="1010" bustype ="I2C" libname ="O2Micro.Cobra.Azalea10" AppVersion="2.00.03" OCEVersion="1.00.01.00" ProjectCode="OCE3710Y">
+  <Part Name="DBConfig">
+    <ChipName>OZ3710</ChipName>
+    <ChipVersion>B0</ChipVersion>
+    <UserType>Y</UserType>
+    <Date>20180411</Date>
+    <HasCom>true</HasCom>
+    <HasAMT>true</HasAMT>
+  </Part>
+  <Part Name = "MainBtnList">      
+    <Button Label = "DeviceConfig"    DBModuleName="DeviceConfig"  Name ="DeviceConfig"   PanelName ="O2Micro.Cobra.DeviceConfigurationPanel">
+      <Layout Name ="layout" bOrder ="true">
+        <Button Name ="EraseBtn" IsEnable ="False" Visibility="Collapsed"/>
+      </Layout>
+    </Button>
+    <Button Label = "Expert"      DBModuleName="Expert"       Name = "Exper"         PanelName ="O2Micro.Cobra.ExperPanel"/>
+    <Button Label = "Scan"       DBModuleName="Scan"      Name = "Scan"         PanelName ="O2Micro.Cobra.MonitorPanel"/>
+    <Button Label = "SCS"      DBModuleName="SCS"       Name = "SCS"         PanelName ="O2Micro.Cobra.SCSPanel"/>
+  </Part>
+</Root>
